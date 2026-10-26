@@ -1,0 +1,59 @@
+{
+    "status": "success",
+    "epochs_trained": 14,
+    "final_training_loss": 0.1518702507019043,
+    "final_training_accuracy": 0.9440715909004211,
+    "best_validation_loss": 0.18357546627521515,
+    "best_validation_accuracy": 0.936170220375061,
+    "test_loss": 0.1352955847978592,
+    "test_accuracy": 0.9509803652763367,
+    "model_path": "C:\\Users\\mohit\\OneDrive\\Desktop\\Deep_Learning\\animal-image-classification\\models\\animal_cnn_best.keras",
+    "class_indices_path": "C:\\Users\\mohit\\OneDrive\\Desktop\\Deep_Learning\\animal-image-classification\\models\\class_indices.json",
+    "history_plot": "C:\\Users\\mohit\\OneDrive\\Desktop\\Deep_Learning\\animal-image-classification\\results\\figures\\training_history.png",
+    "confusion_matrix_plot": "C:\\Users\\mohit\\OneDrive\\Desktop\\Deep_Learning\\animal-image-classification\\results\\figures\\confusion_matrix.png",
+    "classification_report": {
+        "cats": {
+            "precision": 1.0,
+            "recall": 0.85,
+            "f1-score": 0.918918918918919,
+            "support": 20.0
+        },
+        "dogs": {
+            "precision": 0.95,
+            "recall": 1.0,
+            "f1-score": 0.9743589743589743,
+            "support": 19.0
+        },
+        "elephants": {
+            "precision": 1.0,
+            "recall": 0.9523809523809523,
+            "f1-score": 0.975609756097561,
+            "support": 21.0
+        },
+        "horses": {
+            "precision": 0.9090909090909091,
+            "recall": 0.9523809523809523,
+            "f1-score": 0.9302325581395349,
+            "support": 21.0
+        },
+        "lions": {
+            "precision": 0.9130434782608695,
+            "recall": 1.0,
+            "f1-score": 0.9545454545454546,
+            "support": 21.0
+        },
+        "accuracy": 0.9509803921568627,
+        "macro avg": {
+            "precision": 0.9544268774703557,
+            "recall": 0.950952380952381,
+            "f1-score": 0.9507331324120887,
+            "support": 102.0
+        },
+        "weighted avg": {
+            "precision": 0.9540668836704643,
+            "recall": 0.9509803921568627,
+            "f1-score": 0.9505817846630632,
+            "support": 102.0
+        }
+    }
+}

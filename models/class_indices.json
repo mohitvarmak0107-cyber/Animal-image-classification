@@ -1,0 +1,29 @@
+{
+    "classes": [
+        "cats",
+        "dogs",
+        "elephants",
+        "horses",
+        "lions"
+    ],
+    "class_to_idx": {
+        "cats": 0,
+        "dogs": 1,
+        "elephants": 2,
+        "horses": 3,
+        "lions": 4
+    },
+    "idx_to_class": {
+        "0": "cats",
+        "1": "dogs",
+        "2": "elephants",
+        "3": "horses",
+        "4": "lions"
+    },
+    "num_classes": 5,
+    "image_size": [
+        128,
+        128,
+        3
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "stage": "Stage 2: Dataset Preparation",
+    "status": "ready",
+    "dataset_name": "Animal Image Classification Dataset",
+    "dataset_license": "Apache 2.0",
+    "target_classes": [
+        "cats",
+        "dogs",
+        "elephants",
+        "horses",
+        "lions"
+    ],
+    "target_image_size": [
+        128,
+        128,
+        3
+    ],
+    "normalization_range": [
+        0.0,
+        1.0
+    ],
+    "split_ratio": {
+        "training": 0.7,
+        "validation": 0.15,
+        "testing": 0.15
+    },
+    "random_seed": 42,
+    "class_counts_raw": {
+        "cats": 124,
+        "dogs": 122,
+        "elephants": 134,
+        "horses": 131,
+        "lions": 132
+    },
+    "total_raw_valid_images": 643,
+    "split_counts": {
+        "train": {
+            "cats": 86,
+            "dogs": 85,
+            "elephants": 93,
+            "horses": 91,
+            "lions": 92
+        },
+        "val": {
+            "cats": 18,
+            "dogs": 18,
+            "elephants": 20,
+            "horses": 19,
+            "lions": 19
+        },
+        "test": {
+            "cats": 20,
+            "dogs": 19,
+            "elephants": 21,
+            "horses": 21,
+            "lions": 21
+        }
+    },
+    "total_split_images": 643,
+    "corrupted_files_count": 1,
+    "duplicate_files_count": 2,
+    "data_leakage_prevention": [
+        "Physical directory separation into data/processed/train, val, test",
+        "Deterministic stratified pseudorandom shuffling per class (seed=42)",
+        "Disjoint non-overlapping file assignments",
+        "Fixed analytical 1/255.0 rescaling without sharing dataset statistics"
+    ]
+}
